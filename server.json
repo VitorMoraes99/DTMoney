@@ -31,6 +31,14 @@
       "type": "income",
       "createAt": "2025-01-20T20:15:09.883Z",
       "id": 4
+    },
+    {
+      "description": "Lanche",
+      "price": 50,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2025-01-20T21:47:22.202Z",
+      "id": 5
     }
   ]
 }
