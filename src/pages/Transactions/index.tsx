@@ -27,7 +27,13 @@ export function Transactions() {
                       </PriceHighlight>
                     </td>
                     <td>{transaction.category}</td>
-                    <td>{dateFormatter.format(new Date(transaction.createdAt))}</td>
+                    <td>
+                      {transaction.createdAt ? (
+                        dateFormatter.format(new Date(transaction.createdAt))
+                      ) : (
+                        "Sem data"
+                      )}
+                    </td>
                   </tr>
               )
             })}
